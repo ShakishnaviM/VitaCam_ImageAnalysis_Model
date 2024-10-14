@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Baking with Gemini</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+	<main>
+		<h1>VitaCam</h1>
+		<form>
+			<div class="image-picker">
+				<input type="file" name="file">
+			</div>
+			<div class="prompt-box">
+				<label>
+					<input name="prompt" placeholder="Enter instructions here" type="text"
+						value="Ask Anything">
+				</label>
+				<button type="submit">Go</button>
+			</div>
+		</form>
+		<p class="output">(Response will appear here)</p>
+
+		<script src="https://unpkg.com/markdown-it@8.4.2/dist/markdown-it.min.js"></script>
+		<script src="/static/main.js"></script>
+</body>
+
+
+
+</html>
